@@ -1,0 +1,185 @@
+Imagine a doorbell.
+
+You press button
+       ↓
+   Doorbell rings
+       ↓
+Someone hears it
+       ↓
+They open the door
+
+In Qt:
+
+Button clicked
+       ↓
+     Signal
+       ↓
+      Slot
+       ↓
+Function executes
+------------------------------------------------
+
+Signal
+
+A signal means:
+
+"Something happened!"
+
+For example:
+
+clicked
+textChanged
+valueChanged
+currentIndexChanged
+Slot
+
+A slot means:
+
+"When that happens, do this."
+
+For example:
+
+addLocation()
+showMessage()
+updateScenario()
+saveScenario()
+
+------------------------------------------------
+
+Qt uses:
+
+connect(...)
+
+The basic idea is:
+
+connect(sender, signal, receiver, slot);
+
+Think:
+
+Sender
+  |
+  | Signal
+  ↓
+Receiver
+  |
+  | Slot
+  ↓
+Function
+
+For our button:
+
+addLocationButton
+       |
+       | clicked
+       ↓
+   some function
+
+-----------------------------------------------
+
+What does Q_OBJECT mean?
+
+This:
+
+Q_OBJECT
+
+tells Qt:
+
+"This class participates in Qt's meta-object system."
+
+It's required when we want features such as our own:
+
+signals
+slots
+properties
+
+The Qt build system processes this through MOC — Meta-Object Compiler.
+
+That's why earlier we had:
+
+set(CMAKE_AUTOMOC ON)
+
+CMake handles this automatically.
+
+---------------------------------------------------------------
+
+But let's understand WHY
+
+This is actually a C++ concept, not specifically Qt.
+
+Consider:
+
+int number = 10;
+
+[]()
+{
+    std::cout << number;
+};
+
+This doesn't work because:
+
+[]
+
+means:
+
+Capture nothing.
+
+But:
+
+[&number]()
+{
+    std::cout << number;
+};
+
+means:
+
+Capture number by reference.
+
+Therefore:
+
+[&manager]()
+{
+    manager.addRadar();
+}
+
+means:
+
+Capture manager by reference so that this lambda can use it.
+
+--------------------------------------------------------------------------
+
+QObject::connect(
+    sender,
+    signal,
+    receiver,
+    slot
+);
+
+
+---------------------------------------------------------------------------
+
+1. What is QTreeWidget?
+
+You've already used:
+
+QPushButton
+QVBoxLayout
+QHBoxLayout
+
+Now we'll use:
+
+QTreeWidget
+
+A QTreeWidget displays hierarchical information.
+
+For example:
+
+Root
+├── Child 1
+│   ├── Child 1.1
+│   └── Child 1.2
+│
+└── Child 2
+    ├── Child 2.1
+    └── Child 2.2
+
+------------------------------------------------------------------------------
