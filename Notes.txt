@@ -183,3 +183,48 @@ Root
     └── Child 2.2
 
 ------------------------------------------------------------------------------
+
+Understanding [&]
+
+Look at this:
+
+QObject::connect(
+    scenarioTree,
+    &QTreeWidget::itemClicked,
+    [&](QTreeWidgetItem *item, int column)
+    {
+        QString name = item->text(0);
+
+        nameValue->setText(name);
+    }
+);
+
+Focus only on:
+
+[&]
+
+This is the lambda capture list.
+
+What does [&] mean?
+
+It means:
+
+Allow this lambda to access variables from the surrounding scope by reference.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+[&] vs []
+
+Capture	Meaning
+
+[]	Capture nothing
+[&]	Capture needed local variables by reference
+[&manager]	Capture only manager by reference
+[manager]	Capture manager by value
+
+[]       → I need nothing from outside
+[&]      → I can access outside variables by reference
+[&x]     → I can access x by reference
+[x]      → I get a copy of x
+
+------------------------------------------------------------------------------

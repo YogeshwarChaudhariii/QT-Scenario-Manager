@@ -1,0 +1,34 @@
+QTScenarioManager/
+│
+├── CMakeLists.txt
+├── .gitignore
+├── README.md
+│
+├── assets/                          # Static resources (icons, stylesheets)
+│   └── resources.qrc
+│
+├── include/                         # Public API / Shared headers (if modular)
+│
+├── src/                             # Source code root
+│   ├── main.cpp                     # Application entry point only
+│   │
+│   ├── core/                        # Business logic & domain models
+│   │   ├── ScenarioManager.h
+│   │   ├── ScenarioManager.cpp
+│   │   └── models/                  # Domain objects (Radar, Location, Target, DEW)
+│   │       ├── Location.h
+│   │       └── Location.cpp
+│   │
+│   └── ui/                          # UI views, widgets, and windows
+│       ├── MainWindow.h
+│       ├── MainWindow.cpp
+│       ├── MainWindow.ui             # (Optional) Qt Designer form
+│       └── widgets/                 # Reusable custom UI components
+│           ├── ScenarioTreeView.h
+│           ├── ScenarioTreeView.cpp
+│           ├── PropertyPanel.h
+│           └── PropertyPanel.cpp
+│
+└── tests/                           # Unit and integration tests
+    ├── CMakeLists.txt
+    └── test_scenario_manager.cpp
