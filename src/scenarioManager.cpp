@@ -41,6 +41,9 @@ void ScenarioManager::createTree() {
     QTreeWidgetItem *balasoreItem = new QTreeWidgetItem(locationsItem);
     balasoreItem->setText(0, "Balasore");
 
+    QTreeWidgetItem *hyderabadItem = new QTreeWidgetItem(locationsItem);
+    hyderabadItem->setText(0, "Hyderabad");
+
     QTreeWidgetItem *kurnoolItem = new QTreeWidgetItem(locationsItem);
     kurnoolItem->setText(0, "Kurnool");
 
@@ -283,6 +286,12 @@ addTarget( const QString &name ) {
 }
 
 void ScenarioManager::
+godView() {
+    // QImage balasoreImage;
+
+}
+
+void ScenarioManager::
 deleteSelectedItem() {
     
     // Get the currently highlighted item
@@ -401,3 +410,4 @@ saveScenarioToJson() {
 
     QMessageBox::information( this, "Success", "Scenario save successfully...");
 }
+

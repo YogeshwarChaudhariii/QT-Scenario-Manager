@@ -1,66 +1,31 @@
 # ninja log v7
-10	523	8094292136070529	QtScenarioManager_autogen/timestamp	a93263be692678ae
-10	523	8094292136070529	QtScenarioManager_autogen/mocs_compilation.cpp	a93263be692678ae
-10	523	8094292136070529	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QtScenarioManager_autogen/timestamp	a93263be692678ae
-10	523	8094292136070529	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QtScenarioManager_autogen/mocs_compilation.cpp	a93263be692678ae
-1281	1861	8094286665635134	CMakeFiles/QtScenarioManager.dir/QtScenarioManager_autogen/mocs_compilation.cpp.obj	2492fdfb8c20809d
-10	960	8099586601686323	build.ninja	47964ac62feb8173
-10	960	8099586601581091	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/cmake_install.cmake	47964ac62feb8173
-14	1021	8099585365340846	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	1021	8099585365340846	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	1021	8099585365340846	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	1021	8099585365340846	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-1023	3111	8099585367266653	CMakeFiles/QTScenarioManager.dir/QTScenarioManager_autogen/mocs_compilation.cpp.obj	fefc9c0e4ebe6c4e
-562	4241	8099572401792039	CMakeFiles/QTScenarioManager.dir/scenarioManager.cpp.obj	5f085feae96b21b0
-1210	3191	8099566951969726	CMakeFiles/QTScenarioManager.dir/main.cpp.obj	30d9d0e9f7b6efad
-3294	3560	8099585389970641	QTScenarioManager.exe	b1aa5e32b08df2be
-1054	2999	8099585367572229	CMakeFiles/QTScenarioManager.dir/src/main.cpp.obj	3e0159b5baff383e
-1087	3294	8099585367908643	CMakeFiles/QTScenarioManager.dir/src/scenarioManager.cpp.obj	4cdf492c618093f0
-12	735	8099586601686323	build.ninja	47964ac62feb8173
-12	735	8099586601686323	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/cmake_install.cmake	47964ac62feb8173
-14	582	8099586602177165	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	582	8099586602177165	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	582	8099586602177165	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	582	8099586602177165	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	1333	8099601694253298	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	1333	8099601694253298	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	1333	8099601694253298	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	1333	8099601694253298	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-1334	3654	8099601696867267	CMakeFiles/QTScenarioManager.dir/QTScenarioManager_autogen/mocs_compilation.cpp.obj	fefc9c0e4ebe6c4e
-1461	3714	8099601698133443	CMakeFiles/QTScenarioManager.dir/src/main.cpp.obj	3e0159b5baff383e
-14	811	8099601952714069	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	811	8099601952714069	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	811	8099601952714069	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	811	8099601952714069	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	831	8099602062115165	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	831	8099602062115165	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	831	8099602062115165	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	831	8099602062115165	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-832	3340	8099602070295146	CMakeFiles/QTScenarioManager.dir/src/scenarioManager.cpp.obj	4cdf492c618093f0
-3340	3912	8099602095378679	QTScenarioManager.exe	b1aa5e32b08df2be
-17	1438	8099605704680383	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-17	1438	8099605704680383	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-17	1438	8099605704680383	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-17	1438	8099605704680383	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-1440	3832	8099605707403810	CMakeFiles/QTScenarioManager.dir/QTScenarioManager_autogen/mocs_compilation.cpp.obj	fefc9c0e4ebe6c4e
-1576	3942	8099605708773207	CMakeFiles/QTScenarioManager.dir/src/main.cpp.obj	3e0159b5baff383e
-1717	4501	8099605710169859	CMakeFiles/QTScenarioManager.dir/src/scenarioManager.cpp.obj	4cdf492c618093f0
-4502	5082	8099605738020067	QTScenarioManager.exe	b1aa5e32b08df2be
-14	837	8099606350503040	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	837	8099606350503040	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	837	8099606350503040	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	837	8099606350503040	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-839	5338	8099606358757085	CMakeFiles/QTScenarioManager.dir/src/scenarioManager.cpp.obj	4cdf492c618093f0
-5338	5925	8099606403750981	QTScenarioManager.exe	b1aa5e32b08df2be
-16	796	8099607582728412	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-16	796	8099607582728412	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-16	796	8099607582728412	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-16	796	8099607582728412	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-797	5249	8099607590528858	CMakeFiles/QTScenarioManager.dir/src/scenarioManager.cpp.obj	4cdf492c618093f0
-5250	5827	8099607635058887	QTScenarioManager.exe	b1aa5e32b08df2be
-14	832	8099609923773323	QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	832	8099609923773323	QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-14	832	8099609923773323	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/timestamp	87e55e7c0be2a726
-14	832	8099609923773323	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/QTScenarioManager_autogen/mocs_compilation.cpp	87e55e7c0be2a726
-834	3375	8099609931969597	CMakeFiles/QTScenarioManager.dir/src/scenarioManager.cpp.obj	4cdf492c618093f0
-3376	3957	8099609957394783	QTScenarioManager.exe	b1aa5e32b08df2be
+11	1428	8099676727183303	Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+11	1428	8099676727183303	Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+11	1428	8099676727183303	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+11	1428	8099676727183303	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+1434	3441	8099676729055043	CMakeFiles/Qt-Scenario-Manager.dir/Qt-Scenario-Manager_autogen/mocs_compilation.cpp.obj	f995b0ee901e8001
+1466	3462	8099676729373421	CMakeFiles/Qt-Scenario-Manager.dir/src/main.cpp.obj	937546ead3ebaad8
+16	558	8099676967922177	Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+16	558	8099676967922177	Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+16	558	8099676967922177	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+16	558	8099676967922177	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+559	2763	8099676973349424	CMakeFiles/Qt-Scenario-Manager.dir/src/scenarioManager.cpp.obj	49073a6d05891b0e
+2764	3048	8099676995395966	Qt-Scenario-Manager.exe	683eec1df9405df2
+16	550	8099677705028416	Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+16	550	8099677705028416	Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+16	550	8099677705028416	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+16	550	8099677705028416	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+555	2789	8099677710412397	CMakeFiles/Qt-Scenario-Manager.dir/src/scenarioManager.cpp.obj	49073a6d05891b0e
+2789	3041	8099677732760512	Qt-Scenario-Manager.exe	683eec1df9405df2
+17	532	8099678968190714	Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+17	532	8099678968190714	Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+17	532	8099678968190714	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+17	532	8099678968190714	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+17	1014	8099679344771762	Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+17	1014	8099679344771762	Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+17	1014	8099679344771762	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/timestamp	d4298512fe258cd0
+17	1014	8099679344771762	C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/Qt-Scenario-Manager_autogen/mocs_compilation.cpp	d4298512fe258cd0
+1055	3099	8099679347141519	CMakeFiles/Qt-Scenario-Manager.dir/src/main.cpp.obj	937546ead3ebaad8
+1016	3121	8099679346761837	CMakeFiles/Qt-Scenario-Manager.dir/Qt-Scenario-Manager_autogen/mocs_compilation.cpp.obj	f995b0ee901e8001
+1093	3641	8099679347527687	CMakeFiles/Qt-Scenario-Manager.dir/src/scenarioManager.cpp.obj	49073a6d05891b0e
+3642	3918	8099679373017204	Qt-Scenario-Manager.exe	683eec1df9405df2

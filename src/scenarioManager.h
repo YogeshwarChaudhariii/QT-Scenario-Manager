@@ -29,6 +29,7 @@ public QWidget {
         void addRadar( const QString &name );
         void addDEW( const QString &name );
         void addTarget( const QString &name );
+        void godView();
 
         void deleteSelectedItem();
         void saveScenarioToJson();

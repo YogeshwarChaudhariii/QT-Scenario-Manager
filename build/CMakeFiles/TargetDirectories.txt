@@ -1,5 +1,5 @@
-C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/CMakeFiles/QTScenarioManager.dir
-C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/CMakeFiles/edit_cache.dir
-C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/CMakeFiles/rebuild_cache.dir
-C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/CMakeFiles/QTScenarioManager_autogen_timestamp_deps.dir
-C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/build/CMakeFiles/QTScenarioManager_autogen.dir
+C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/CMakeFiles/Qt-Scenario-Manager.dir
+C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/CMakeFiles/edit_cache.dir
+C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/CMakeFiles/rebuild_cache.dir
+C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/CMakeFiles/Qt-Scenario-Manager_autogen_timestamp_deps.dir
+C:/Users/yogeshwar/Desktop/Yogeshwar/Software Development/QTScenarioManager/QT-Scenario-Manager/build/CMakeFiles/Qt-Scenario-Manager_autogen.dir

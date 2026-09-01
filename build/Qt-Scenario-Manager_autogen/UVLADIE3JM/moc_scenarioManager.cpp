@@ -47,6 +47,7 @@ template <> constexpr inline auto ScenarioManager::qt_create_metaobjectdata<qt_m
         "addRadar",
         "addDEW",
         "addTarget",
+        "godView",
         "deleteSelectedItem",
         "saveScenarioToJson"
     };
@@ -72,10 +73,12 @@ template <> constexpr inline auto ScenarioManager::qt_create_metaobjectdata<qt_m
         QtMocHelpers::SlotData<void(const QString &)>(7, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::QString, 3 },
         }}),
-        // Slot 'deleteSelectedItem'
+        // Slot 'godView'
         QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
-        // Slot 'saveScenarioToJson'
+        // Slot 'deleteSelectedItem'
         QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'saveScenarioToJson'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -104,8 +107,9 @@ void ScenarioManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         case 2: _t->addRadar((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 3: _t->addDEW((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 4: _t->addTarget((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 5: _t->deleteSelectedItem(); break;
-        case 6: _t->saveScenarioToJson(); break;
+        case 5: _t->godView(); break;
+        case 6: _t->deleteSelectedItem(); break;
+        case 7: _t->saveScenarioToJson(); break;
         default: ;
         }
     }
@@ -134,14 +138,14 @@ int ScenarioManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 8;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 8;
     }
     return _id;
 }
