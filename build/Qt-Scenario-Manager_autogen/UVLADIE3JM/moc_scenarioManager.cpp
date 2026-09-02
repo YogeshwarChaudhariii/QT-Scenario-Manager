@@ -44,12 +44,13 @@ template <> constexpr inline auto ScenarioManager::qt_create_metaobjectdata<qt_m
         "",
         "name",
         "addLocation",
+        "imagePath",
         "addRadar",
         "addDEW",
         "addTarget",
-        "godView",
         "deleteSelectedItem",
-        "saveScenarioToJson"
+        "saveScenarioToJson",
+        "importImageForSelected"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -58,27 +59,31 @@ template <> constexpr inline auto ScenarioManager::qt_create_metaobjectdata<qt_m
             { QMetaType::QString, 3 },
         }}),
         // Slot 'addLocation'
-        QtMocHelpers::SlotData<void(const QString &)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
+        QtMocHelpers::SlotData<void(const QString &, const QString &)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 3 }, { QMetaType::QString, 5 },
+        }}),
+        // Slot 'addLocation'
+        QtMocHelpers::SlotData<void(const QString &)>(4, 2, QMC::AccessPublic | QMC::MethodCloned, QMetaType::Void, {{
             { QMetaType::QString, 3 },
         }}),
         // Slot 'addRadar'
-        QtMocHelpers::SlotData<void(const QString &)>(5, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 3 },
-        }}),
-        // Slot 'addDEW'
         QtMocHelpers::SlotData<void(const QString &)>(6, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::QString, 3 },
         }}),
-        // Slot 'addTarget'
+        // Slot 'addDEW'
         QtMocHelpers::SlotData<void(const QString &)>(7, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::QString, 3 },
         }}),
-        // Slot 'godView'
-        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'addTarget'
+        QtMocHelpers::SlotData<void(const QString &)>(8, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 3 },
+        }}),
         // Slot 'deleteSelectedItem'
         QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'saveScenarioToJson'
         QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'importImageForSelected'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -103,13 +108,14 @@ void ScenarioManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->locationAdded((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 1: _t->addLocation((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 2: _t->addRadar((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 3: _t->addDEW((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 4: _t->addTarget((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 5: _t->godView(); break;
+        case 1: _t->addLocation((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
+        case 2: _t->addLocation((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 3: _t->addRadar((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 4: _t->addDEW((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 5: _t->addTarget((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 6: _t->deleteSelectedItem(); break;
         case 7: _t->saveScenarioToJson(); break;
+        case 8: _t->importImageForSelected(); break;
         default: ;
         }
     }
@@ -138,14 +144,14 @@ int ScenarioManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 9)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 9;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 9)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 8;
+        _id -= 9;
     }
     return _id;
 }

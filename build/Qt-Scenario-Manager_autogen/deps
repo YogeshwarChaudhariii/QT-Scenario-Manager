@@ -346,6 +346,7 @@ Qt-Scenario-Manager_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtCore/qversiontagging.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qxptype_traits.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qyieldcpu.h \
+	C:/msys64/mingw64/include/qt6/QtGui/QPixmap \
 	C:/msys64/mingw64/include/qt6/QtGui/qaction.h \
 	C:/msys64/mingw64/include/qt6/QtGui/qbitmap.h \
 	C:/msys64/mingw64/include/qt6/QtGui/qbrush.h \
